@@ -1,0 +1,82 @@
+/* https://www.w3schools.com/csSref/sel_all.php#:~:text=The%20*%20selector%20selects%20all%20elements,See%20"More%20Examples"). */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #faf8ec;
+    color: #333;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: left;
+    color: #000000;
+    border-bottom: 2px solid #008080;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: left;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.mini {
+    font-size: 12px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+a {
+    color: #cc003d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ------------------------ */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.absolute-box {
+    float: left;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+ul {
+    list-style: square inside; 
+    margin-bottom: 20px;
+}
